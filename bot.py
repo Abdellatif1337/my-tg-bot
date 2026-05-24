@@ -8,7 +8,7 @@ import yt_dlp
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # --- ⚠️ حط التوكن ديالك هنا ⚠️ ---
-TOKEN = '8215464725:AAFS_qFHuOtEFDfOPhFdbD1GUdMiCgmAsZg'
+TOKEN = '8215464725:AAFS_qFHu0teFDf0PhFdbD1GUdMICgmAsZg'
 
 # دالة الترحيب
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
