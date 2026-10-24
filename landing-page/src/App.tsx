@@ -136,6 +136,8 @@ const faqs: FaqItem[] = [
   },
 ]
 
+const currentYear = new Date().getFullYear()
+
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [selectedImage, setSelectedImage] = useState(0)
@@ -352,7 +354,7 @@ function App() {
           </a>
           <p>{productData.supportInfo}</p>
         </div>
-        <p>© {new Date().getFullYear()} {productData.storeName}. Tous droits réservés.</p>
+        <p>© {currentYear} {productData.storeName}. Tous droits réservés.</p>
       </footer>
 
       <aside className="sticky-buy" aria-label="Commande rapide mobile">
