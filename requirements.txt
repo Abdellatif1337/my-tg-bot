@@ -1,2 +1,8 @@
-python-telegram-bot
-yt-dlp
+python-telegram-bot[job-queue]==21.7
+SQLAlchemy==2.0.36
+alembic==1.14.0
+psycopg[binary]==3.2.3
+APScheduler==3.10.4
+python-dotenv==1.0.1
+pytest==8.3.3
+pytest-asyncio==0.24.0
